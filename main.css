@@ -18,7 +18,7 @@
     width:100%;
     text-align: center;
     padding-top:10px;
-    display: block;
+    display: none;
    
 }
 .nav-list .list-item{
@@ -63,12 +63,7 @@
         right:15px;
         top:15px;
     }
-    .nav-list {
-        list-style-type:none;
-        width:100%;
-        text-align: center;
-        padding-top:10px;
-    } 
+ 
   
   
 }

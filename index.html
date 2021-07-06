@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" >
+<title>Responsive website</title>
+<link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <nav class ="navbar">
+        <div  class="container-icon"style="width:100%">
+        <a href='#' style="width:100%"><img class="p-icon" src="r.png"></a>
+        
+        </div>
+  <ul class="nav-list" id="navi-list">
+    <li class="list-item">
+          <a href='#'>Home</a>
+      </li>
+      <li class="list-item">
+        <a href='#'>Most Popular</a>
+    </li>
+    <li class="list-item">
+        <a href='#'>Categories</a>
+    </li>
+    <li class="list-item">
+        <a href='#'>Contact</a>
+    </li>
+</ul>
+<div class="menu" id="toggle-button">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+</div>
+  
+ </nav>
+</body>
+
+<script>
+const toggleButton=document.getElementById('toggle-button');
+const naviList=document.getElementById('navi-list')
+
+
+toggleButton.addEventListener('click',()=>{
+    naviList.classList.toggle('active');
+})
+
+</script>
+</html>
+
+
+
+
